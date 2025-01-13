@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadSceneOnTrigger : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class LoadSceneOnTrigger : MonoBehaviour
     [SerializeField]
     [Tooltip("The name of the scene to load when the trigger is activated.")]
     private string _sceneName;
+    public float SceneDelay = 3f;
 
     /// <summary>
     /// Called when another collider enters the trigger collider attached to this GameObject.
@@ -15,7 +17,12 @@ public class LoadSceneOnTrigger : MonoBehaviour
     /// <param name="other">The collider that entered the trigger.</param>
     private void OnTriggerEnter(Collider other)
     {
-        // Load the scene specified by the _sceneName variable
-        LevelManager.Instance.LoadLevel(_sceneName);
+        StartCoroutine(LoadSceneAfterDelay());
+    }
+
+    private IEnumerator LoadSceneAfterDelay()
+    {
+        yield return new WaitForSeconds(SceneDelay); // Wait for the delay
+        LevelManager.Instance.LoadLevel(_sceneName);    // Load the target scene
     }
 }

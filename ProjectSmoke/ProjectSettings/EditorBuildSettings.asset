@@ -9,19 +9,19 @@ EditorBuildSettings:
     path: Assets/Handouts/Scenes/Showcase.unity
     guid: 7c07da1f2cc8a58439aa3d296fa62f3c
   - enabled: 1
-    path: Assets/Handouts/Scenes/Scene Atletiekbaan.unity
+    path: Assets/Handouts/Scenes/2. Atletiekbaan.unity
     guid: fd2e70739530e8b4e8b220e3e94918f5
   - enabled: 1
-    path: Assets/Handouts/Scenes/bushok.unity
+    path: Assets/Handouts/Scenes/3. Bushok.unity
     guid: 1ecfdf1e6f132e24c914f9c1a5f441c8
   - enabled: 1
-    path: Assets/Handouts/Scenes/scene graf.unity
+    path: Assets/Handouts/Scenes/7. Graf.unity
     guid: 722e0a6396d7eec4aad5a31a981af3ac
   - enabled: 1
-    path: Assets/Handouts/Scenes/scene ziekenhuis.unity
+    path: Assets/Handouts/Scenes/1. Ziekenhuis 1.unity
     guid: 26b015b6bcba25449bf8a899e7fa5429
   - enabled: 1
-    path: Assets/Handouts/Scenes/Woonkamer.unity
+    path: Assets/Handouts/Scenes/5. Woonkamer.unity
     guid: 70ebcb184cc5f734a8805beea1adfcef
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2e7dffdad327c0444989a413dd754646, type: 2}
