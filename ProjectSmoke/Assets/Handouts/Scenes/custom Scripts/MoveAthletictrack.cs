@@ -7,7 +7,7 @@ public class MoveAthletictrack : MonoBehaviour
 
     public GameObject Movingfloor;
     public GameObject Movingperson;
-    public int Movespeed;
+    public float Movespeed;
     // Start is called before the first frame update
     void Start()
     {

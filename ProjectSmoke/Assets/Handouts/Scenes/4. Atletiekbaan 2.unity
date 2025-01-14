@@ -955,11 +955,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1059076510036618458, guid: 6d6782df52164774e9e4a9dce0beb3d2, type: 3}
       propertyPath: SceneDelay
-      value: 30
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1059076510036618458, guid: 6d6782df52164774e9e4a9dce0beb3d2, type: 3}
       propertyPath: _sceneName
-      value: 3. Bushok
+      value: 5. Woonkamer
       objectReference: {fileID: 0}
     - target: {fileID: 4327429535814183017, guid: 6d6782df52164774e9e4a9dce0beb3d2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7260,7 +7260,7 @@ PrefabInstance:
     - target: {fileID: 6896609473909473591, guid: 3501a97b2b3d153498f05c3556d8e902, type: 3}
       propertyPath: _audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 2c689efe1d9d0ae4d90b89a9b8950b6a, type: 3}
+      objectReference: {fileID: 8300000, guid: c3099f3cc75c59a4c85a88a8ea291eff, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8760,7 +8760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Movingfloor: {fileID: 2011824124}
   Movingperson: {fileID: 73203106}
-  Movespeed: 2
+  Movespeed: -2
 --- !u!1 &2021191105
 GameObject:
   m_ObjectHideFlags: 0
