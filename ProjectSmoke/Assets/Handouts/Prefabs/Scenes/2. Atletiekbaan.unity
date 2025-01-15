@@ -806,7 +806,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 12e4c9699eaf0a34b9a9a62a7fcf39be, type: 2}
+  - {fileID: 2100000, guid: b8a73fbb628c71a4c85d1b1e961fa48f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -864,8 +864,8 @@ Transform:
   m_GameObject: {fileID: 207026762}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.00071945786, z: -0, w: -0.9999998}
-  m_LocalPosition: {x: -0.4992019, y: -3.1129105, z: 2.9767835}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.4992019, y: -2.831, z: 2.9767835}
+  m_LocalScale: {x: 0.6, y: 1.5, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 73203107}
@@ -3382,7 +3382,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 12e4c9699eaf0a34b9a9a62a7fcf39be, type: 2}
+  - {fileID: 2100000, guid: b8a73fbb628c71a4c85d1b1e961fa48f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5019,8 +5019,8 @@ Transform:
   m_GameObject: {fileID: 1067441808}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.00071945786, z: -0, w: -0.9999998}
-  m_LocalPosition: {x: 3.5007987, y: -3.1129105, z: 3.6367803}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.5007987, y: -2.831, z: 3.6367803}
+  m_LocalScale: {x: 0.6, y: 1.5, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 73203107}
@@ -6995,7 +6995,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 12e4c9699eaf0a34b9a9a62a7fcf39be, type: 2}
+  - {fileID: 2100000, guid: b8a73fbb628c71a4c85d1b1e961fa48f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8825,8 +8825,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208

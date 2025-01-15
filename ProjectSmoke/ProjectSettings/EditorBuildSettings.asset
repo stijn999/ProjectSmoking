@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Handouts/Prefabs/Scenes/10. Credits.unity
     guid: dbac510681684f341abc626e42d67ee0
+  - enabled: 1
+    path: Assets/Handouts/Prefabs/Scenes/0.Start.unity
+    guid: df4b13eece9a8f8448472e04c6da16dd
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2e7dffdad327c0444989a413dd754646, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 3e9a15a7fd95d1444bd34fa7fc6a716b, type: 2}
