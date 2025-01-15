@@ -26,6 +26,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Handouts/Prefabs/Scenes/4. Atletiekbaan 2.unity
     guid: cd9801bcf88257a469a85162419f7c1d
+  - enabled: 1
+    path: Assets/Handouts/Prefabs/Scenes/6. Ziekenhuis 2.unity
+    guid: edaefc5f08926cb4187afaa49b7b7f92
+  - enabled: 1
+    path: Assets/Handouts/Prefabs/Scenes/8. Woonkamer 2.unity
+    guid: 5ba23caf0d491404bb90f5f8a8e2bdf1
+  - enabled: 1
+    path: Assets/Handouts/Prefabs/Scenes/9. Ziekenhuis 3.unity
+    guid: 46a1637a85570c84da12dab7ae3125a7
+  - enabled: 1
+    path: Assets/Handouts/Prefabs/Scenes/10. Credits.unity
+    guid: dbac510681684f341abc626e42d67ee0
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2e7dffdad327c0444989a413dd754646, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 3e9a15a7fd95d1444bd34fa7fc6a716b, type: 2}
